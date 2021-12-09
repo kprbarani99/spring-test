@@ -34,7 +34,7 @@ jobs:
       - name: Checkout
        uses: actions/checkout@v2.4.0
        with:
-       repository: 
+       repository: https://github.com/mupadh/spring-test.git
       
   # setup JDK
      - name: set up JDK 11
